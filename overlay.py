@@ -155,7 +155,12 @@ class Main(object):
     def main(self):
         gtk.main()
 
+# This code amuses me... providing several ways of running the module.
+
+def main():
+    mainMain = Main()
+    mainMain.main()
+
 if __name__ == "__main__":
-    main = Main()
-    main.main()
+    main()
     

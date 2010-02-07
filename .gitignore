@@ -1,2 +1,9 @@
 # Ignore all compiled python code.
 *.pyc
+
+# Ignore temp files.
+*~
+
+# Ignore distutils-generated directories.
+dist/**/*
+build/**/*

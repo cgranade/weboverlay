@@ -12,7 +12,7 @@
 
 from distutils.core import setup
 
-setup(name='Web Overlay',
+setup(name='weboverlay',
       version='0.1',
       description='Desktop utility for embedding web pages.',
       author='Christopher Granade',
@@ -20,4 +20,5 @@ setup(name='Web Overlay',
       url='http://github.com/cgranade/weboverlay',
       requires=['yaml', 'webkit', 'gtk', 'pygtk'],
       py_modules=['overlay', 'simplestatus'],
+      scripts=['weboverlay'],
      )
