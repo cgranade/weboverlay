@@ -6,9 +6,6 @@
 # (c) 2010 Christopher E. Granade (cgranade@gmail.com).
 # Licensed under GPL v3.
 ##
-# This file is a part of the weboverlay project.
-# http://github.com/cgranade/weboverlay
-##
 # WARNING: This is still a proof of concept. Do not use it
 #     without improving it first, unless you plan on filing bug
 #     reports.
